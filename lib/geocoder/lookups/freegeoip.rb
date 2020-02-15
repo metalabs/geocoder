@@ -10,7 +10,7 @@ module Geocoder::Lookup
 
     def supported_protocols
       if configuration[:host]
-        [:https]
+        [:http]
       else
         # use https for default host
         [:https]
